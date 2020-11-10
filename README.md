@@ -13,3 +13,6 @@ Here is the second screen shot. Here the user is shown selecting “Reason” fr
 
 <img src="https://github.com/JayBee6814/REST_API_Demo/blob/main/README/UI2.png" alt="drawing" width="40%"/>
 
+Here is the results of the search initiated by the users. Here we see that all the records have the value of “Amber Alert” in the “Reason” column. This is the criteria that the user selected displayed in the table at the bottom of the page. 
+
+<img src="https://github.com/JayBee6814/REST_API_Demo/blob/main/README/UI3.png" alt="drawing" width="40%"/>
