@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 22, 2020, 7:43:55 PM
+    Author     : bourneje
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+    color: red;
+}
+
+.header_container {
+    background-color: #374139;
+}
+
+hr {
+    border-top: 3px solid red;
+}
+
+html, body {
+                background-color: #d8d8d7;
+            }
+ 
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.btn {
+  border: none; /* Remove borders */
+  color: #374139; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.danger {background-color: #f44336;} /* Red */
+.danger:hover {background: #da190b;}

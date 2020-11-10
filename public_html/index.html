@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Vehicles of Interest</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="style.css"/>
+        <script src="vehiclesOfInterest.js"></script>
+
+
+    </head>
+    <body>
+        <div>
+            <div class="header_container">
+                <div class="w3-container">
+                   <img src="img/msp_logo.png" style="margin: 2%; width: 50%;"/>
+                </div>   
+            </div>
+            <div class="hr_container">
+                <hr>
+            </div>
+            
+            <div class="body_container">
+                <div class="w3-container">
+                    <div class="w3-center">
+                        <h3>Maryland State Police Vehicle of Interest Mobile Database</h3>
+                    </div>
+                    <p><small>Select catagory, enter search criteria and click refresh buttons.</small></p>
+                        <form>
+                            <div class="custom-select" style="width:200px;">
+                                <select name="column" id="column" size="8">
+                                    <option value="all">List All</option>
+                                    <option value="licensePlate">License Plate</option>
+                                    <option value="reason">Reason</option>
+                                    <option value="make">Make</option>
+                                    <option value="model">Model</option>
+                                    <option value="vehYear">Year</option>
+                                    <option value="color">Color</option>
+                                    <option value="ownersName">Owner</option>
+                                    <option value="ownersPhone">Owner Phone</option>
+                                </select>
+                            </div>
+                            <br/><br/>
+                            <label for="veh_value">Value:</label>
+                            <input type="text" id="veh_value" name="value">
+                        </form>
+                        <br/>
+                        <button class="btn danger" onclick="refreshVOI()">Refresh</button>
+                        <br/><br/>
+                        <div id="VehiclesOfInterestdiv">
+                           <div style="overflow-x:auto;">
+                           <table id="VOITable" border="1">
+                              <tr>
+                                  <td><b>License Plate</b></td>
+                                 <td><b>Reason</b></td>
+                                 <td><b>Make</b></td>
+                                 <td><b>Model</b></td>
+                                 <td><b>Year</b></td>
+                                 <td><b>Color</b></td>
+                                 <td><b>Owner</b></td>
+                                 <td><b>Owner Phone</b></td>
+                              </tr>
+                           </table>
+                           </div>
+                        </div>
+                </div>
+            </div>
+            
+        </div>
+        <br/>
+        
+    </body>
+</html>
