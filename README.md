@@ -6,4 +6,4 @@ The purpose of the project was to create a fictional app for the Maryland State 
 Vehicles of Interest. They could search the database by field name and field value. Once a hit is found it is presented in an HTML Table. 
 
 
-<img src="https://github.com/JayBee6814/REST_API_Demo/blob/main/README/UI1.png" alt="drawing" width="50%"/>
+<img src="https://github.com/JayBee6814/REST_API_Demo/blob/main/README/UI1.png" alt="drawing" width="40%"/>
