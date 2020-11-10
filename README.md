@@ -1,4 +1,4 @@
-<b>SIMPLE REST_API DEMO</b>
+<h2><b>SIMPLE REST_API DEMO</b></h2>
 
 This is a simple example of how to consume an API and then display the results in a HTML table. This was a project used in 
 my Graduate School User Interface Class where We had to connect to a derby database, create the REST_API, then consume it in a web application.
